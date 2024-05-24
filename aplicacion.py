@@ -58,5 +58,5 @@ scrollbar = ttk.Scrollbar(frame, orient=tk.VERTICAL, command=tree.yview)
 tree.configure(yscroll=scrollbar.set)
 scrollbar.grid(row=3, column=2, sticky=(tk.N, tk.S))
 
-# Ejecutar la aplicación
+# Ejecutar la aplicación y finalizar
 root.mainloop()
